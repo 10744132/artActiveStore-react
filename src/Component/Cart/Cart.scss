@@ -1,0 +1,95 @@
+.cart{
+    
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    top: 80px;
+    right: 10px;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    h1{
+        display: flex;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .product{
+        display: flex;
+        padding: 10px ;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 100px;
+            height: 120px;
+            object-fit:cover ;
+            
+
+        }
+        .content{
+            flex: 5;
+            margin-left: -30px;
+            h3{
+                margin-top: -10px;
+                color: gray;
+                display: flex;
+            }
+            .info{
+               text-align: justify; 
+               color: #777;
+               font-size: 14px;
+               letter-spacing: 1px;
+            }
+            span{
+                color: #2987fe;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 2px;
+            }
+
+        }
+        .icon{
+            padding: 10px;
+            color: salmon;
+            cursor: pointer;
+        }
+
+    }
+    .subtatal{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-left: 10px;
+        h2{
+            
+        }
+        span{
+            font-size: 18px;
+            font-weight: 500;
+            
+        }
+
+    }
+    .check{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        background-color: #2987fe;
+        border: 2px solid white;
+        margin-left: 10px;
+    }
+    .reset{
+        margin-top:10px ;
+        padding-left: 4px;
+        display: flex;
+        margin-left: 10px;
+        color: red;
+        font-weight: 500;
+    }
+}
