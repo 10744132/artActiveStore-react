@@ -20,7 +20,7 @@ const Layout =  () =>{
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"/artActiveStore-react/",
     element:<Layout/>,
     children:[
       {
