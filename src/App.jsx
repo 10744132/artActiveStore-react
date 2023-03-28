@@ -43,7 +43,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div >    
-      <RouterProvider router={router}/>  
+      <RouterProvider base:"/artActiveStore-react/" router={router}/>  
     </div>
   )
 }
